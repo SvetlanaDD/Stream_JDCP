@@ -1,9 +1,29 @@
 class Person {
-    private String name;
-    private String family;
-    private Integer age;
-    private Sex sex;
-    private Education education;
+    public String name;
+    public String family;
+    public Integer age;
+    public Sex sex;
+    public Education education;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setFamily(String family) {
+        this.family = family;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public void setSex(Sex sex) {
+        this.sex = sex;
+    }
+
+    public void setEducation(Education education) {
+        this.education = education;
+    }
 
     public Person(String name, String family, int age, Sex sex, Education education) {
         this.name = name;
